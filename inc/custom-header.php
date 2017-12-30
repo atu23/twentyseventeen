@@ -34,9 +34,9 @@ function twentyseventeen_custom_header_setup() {
 	 * }
 	 */
 	add_theme_support( 'custom-header', apply_filters( 'twentyseventeen_custom_header_args', array(
-		'default-image'      => get_parent_theme_file_uri( '/assets/images/header.jpg' ),
-		'width'              => 2000,
-		'height'             => 1200,
+		'default-image'      => get_parent_theme_file_uri( '/assets/images/whales.jpg' ),
+		'width'              => 1920,
+		'height'             => 1080,
 		'flex-height'        => true,
 		'video'              => true,
 		'wp-head-callback'   => 'twentyseventeen_header_style',
@@ -44,8 +44,8 @@ function twentyseventeen_custom_header_setup() {
 
 	register_default_headers( array(
 		'default-image' => array(
-			'url'           => '%s/assets/images/header.jpg',
-			'thumbnail_url' => '%s/assets/images/header.jpg',
+			'url'           => '%s/assets/images/whales.jpg',
+			'thumbnail_url' => '%s/assets/images/whales.jpg',
 			'description'   => __( 'Default Header Image', 'twentyseventeen' ),
 		),
 	) );
